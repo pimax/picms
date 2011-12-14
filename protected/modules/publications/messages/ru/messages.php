@@ -1,0 +1,25 @@
+<?php
+
+return array(
+    'Publications Categories' => 'Категории',
+    'Publications' => 'Публикации',
+    'Manage' => 'Управление',
+    'Manage categories' => 'Управление категориями',
+    'Manage comments' => 'Управление комментариями',
+    'Create category' => 'Создать категорию',
+    'Advanced Search' => 'Расширенный поиск',
+    'Create' => 'Создать',
+    'Update' => 'Редактировать',
+    'Save' => 'Сохранить',
+    'Back' => 'Вернуться',
+    'Create PublicationsCategory' => 'Создание категории',
+    'Update PublicationsCategory' => 'Редактирование категории',
+    'View PublicationsCategory' => 'Карточка категории',
+    'Publications Posts' => 'Публикации',
+    'Create post' => 'Создать публикацию',
+    'Create Post' => 'Создание публикации',
+    'Update post' => 'Редактирование',
+    'Manage posts' => 'Управление публикациями',
+    'Comments' => 'Комментарии',
+    'Update Comment' => 'Редактирование комментария',
+);

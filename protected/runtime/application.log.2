@@ -1,0 +1,10 @@
+2011/10/31 17:41:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/libs/jquery.dataTables.min.js".' in D:\Sites\fashiondb.lc\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\Sites\fashiondb.lc\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('js/libs/jquery....')
+#1 D:\Sites\fashiondb.lc\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\Sites\fashiondb.lc\www\protected\behaviors\WebApplicationEndBehavior.php(24): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('backend')
+#4 D:\Sites\fashiondb.lc\yii\framework\base\CComponent.php(264): call_user_func_array(Array, Array)
+#5 D:\Sites\fashiondb.lc\www\admin\index.php(11): CComponent->__call('runEnd', Array)
+#6 D:\Sites\fashiondb.lc\www\admin\index.php(11): CWebApplication->runEnd('backend')
+#7 {main} REQUEST_URI=/admin/js/libs/jquery.dataTables.min.js

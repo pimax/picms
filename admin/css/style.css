@@ -1,0 +1,292 @@
+html, body {
+    background-color: #eee;
+}
+
+
+* {outline: none; border: none;}
+
+body {
+    padding-top: 40px; 
+}
+.container > footer p {
+    text-align: center; 
+}
+.container {
+    width: 940px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+
+.page-header {
+    background-color: #f5f5f5;
+    padding: 20px 20px 10px;
+    margin: -20px -20px 20px;
+}
+
+.content .span10,
+.content .span4 {
+    min-height: 500px;
+}
+
+.content .span4 {
+    margin-left: 0;
+    padding-left: 19px;
+    border-right: 1px solid #eee;
+}
+
+.topbar .btn {
+    border: 0;
+}
+
+
+.topbar {
+    background:url("../images/header-bg.png") repeat-x scroll 0 0 #00A0D1;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
+    height:40px;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:999;
+}
+
+
+.topbar div > ul a, .nav a {
+    color:#BFE4EF;
+    text-shadow:0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.topbar div > ul a:hover {
+    color: #fff;
+    background: #0089B3;
+}
+
+.topbar div > ul .menu-dropdown, .nav .menu-dropdown, .topbar div > ul .dropdown-menu, .nav .dropdown-menu {
+background: #0089B3;
+}
+
+.topbar div > ul .menu-dropdown li a, .nav .menu-dropdown li a, .topbar div > ul .dropdown-menu li a, .nav .dropdown-menu li a {
+color:#BFE4EF;
+text-shadow:0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.topbar div>ul .menu-dropdown li a:hover,.nav .menu-dropdown li a:hover,.topbar div>ul .dropdown-menu li a:hover,.nav .dropdown-menu li a:hover{
+    background:url("../images/header-bg.png") repeat-x scroll 0 0 #00A0D1;
+}
+
+
+.topbar div > ul .menu-dropdown .divider, .nav .menu-dropdown .divider, .topbar div > ul .dropdown-menu .divider, .nav .dropdown-menu .divider {
+    background-color:#BFE4EF;
+    border: none;
+    /*border-color:#BFE4EF;*/
+}
+
+.topbar div > ul .active > a, .nav .active > a {
+    background-color: #00A0D1;
+}
+
+
+.menu-dropdown, .dropdown-menu {
+    border-color:#00A0D1;
+}
+
+
+p.pull-right {color: #BFE4EF}
+p.pull-right a {
+    color: #fff;
+    text-decoration: underline;
+}
+p.pull-right a:hover {text-decoration: none;}
+
+.breadcrumb {width: 670px;}
+
+.well {padding:17px 20px 18px 150px;}
+
+.pagination {text-align: center;}
+.pagination ul {float: none; display: inline-block;}
+
+div.selector, div.uploader {
+margin-bottom:0;
+}
+
+div.uploader {width: 223px;cursor: pointer}
+div.uploader span.action {padding: 4px 2px; width: 89px;}
+div.uploader span.filename {width: 105px; }
+
+.input label {color:#555555;
+display:block;
+font-weight:bold;
+margin-bottom:10px; 
+float: none; 
+width: auto; 
+text-align: left;
+line-height: 22px;
+}
+
+div.selector, div.selector select {width: 218px;}
+div.selector span {width: 186px;}
+
+
+.table th {
+    cursor:default;
+}/*
+
+.table th a {
+    color:#049CDB;
+    text-decoration: none;
+}*/
+
+.button-column {text-align: center;}
+
+.top {
+    margin: 10px 0 20px 0;
+}
+
+.grid-view-loading {background-position: right top;}
+
+h1 small {text-transform: lowercase}
+
+.pager {text-align: center;}
+
+div.form div.error label,
+div.form label.error,
+div.form span.error
+{
+	color: #C00;
+}
+
+.errorSummary
+{
+	border: 2px solid #C00;
+	padding: 7px 7px 12px 7px;
+	margin: 14px 0 20px 0;
+	background: #FEE;
+	font-size: 0.9em;
+}
+
+.errorMessage
+{
+	color: #BF0000;
+    padding: 0;
+    padding-top: 2px;
+    font-size: 11px;
+}
+
+
+.errorSummary p
+{
+    color: #BF0000;
+	margin: 0;
+	padding: 5px;
+    font-weight: bold;
+}
+
+.errorSummary ul
+{
+	margin: 0;
+	padding: 0;
+    padding-left: 20px;
+}
+
+.errorSummary ul  li {
+    color: #BF0000;
+}
+
+
+input, textarea, select, .uneditable-input {
+    width: 98%;
+}
+
+.filters input, .filters select {
+    width: 180px;
+}
+
+.span16 .breadcrumb {width: 910px;}
+
+.CodeMirror {border: 1px solid #808080}
+
+
+input[type="checkbox"], input[type="radio"] {
+margin-top: 9px;
+}
+
+.VerticalTable {
+    width: 100%;
+}
+
+.VerticalTable th.labelTh {
+    width: 200px;
+    border-bottom: transparent;
+    border-top: 1px solid #DDDDDD;
+}
+
+.VerticalTable tr:first-child th {border: none;}
+
+.success {color: green}
+
+p.hint {font-size: 11px; margin:0;}
+
+.container-simple {left: 0; top: 0; width: 400px;}
+.container-simple input[type="text"], .container-simple input[type="password"] {width:96%;}
+.container-simple .well-simple {margin-top: 10px; padding-left: 150px;}
+.container-simple form {margin: 0;}
+.container-simple .content {border-radius: 0;}
+
+.container-simple {position: absolute; z-index: 10000; height: 100%; width: 100%;}
+.container-simple .content {width: 400px; height: 226px; position: absolute;top: 50%;left: 50%;margin-left: -200px;margin-top: -113px;}
+
+.container-simple .errorMessageBox {height: 12px;}
+.container-simple form .clearfix {margin-bottom: 5px;}
+.container-simple h1 a {color: #404040; text-decoration: none;}
+
+.item-permalink-box {padding-top: 6px;}
+.item-permalink-box .item-permalink {color:#666666; font-size: 12px; line-height: 20px;}
+
+.item-permalink-box #editable-item-name {
+    background-color:#FFFBCC;
+}
+
+
+.item-permalink-box a.button {
+    line-height:15px;
+    padding:3px 10px;
+    white-space:nowrap;
+}
+
+.item-permalink-box .button {
+    background:url("../images/white-grad.png") repeat-x scroll left top #F2F2F2;
+    text-shadow:0 1px 0 #FFFFFF;
+    border-color:#BBBBBB;
+    color:#464646;
+    -moz-box-sizing:content-box;
+    border-radius:11px 11px 11px 11px;
+    border-style:solid;
+    border-width:1px;
+    cursor:pointer;
+    font-size:11px !important;
+    text-decoration:none;
+}
+
+.item-permalink-box a.button:hover {
+    border-color: #666666;
+    color:#000000;
+    text-decoration: none;
+}
+
+.item-permalink-box a.button:active {color: #D54E21;background:url("../images/white-grad-active.png") repeat-x scroll left top #EEEEEE;}
+
+.item-permalink-box a.cancel {color:#21759B; text-decoration: none;}
+.item-permalink-box a.cancel:hover {text-decoration: underline;}
+.item-permalink-box a.cancel:active {color: #D54E21;}
+
+input.mini-input {width: 230px;}

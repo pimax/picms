@@ -1,0 +1,32 @@
+<?php
+
+return array(
+    'Manage' => 'Управление',
+    'Advanced Search' => 'Расширенный поиск',
+    'Create' => 'Создать',
+    'Update' => 'Редактировать',
+    'Save' => 'Сохранить',
+    'Back' => 'Вернуться',
+    'Create type' => 'Создать тип',
+    'Manage types' => 'Управление типами',
+    'Structure Types' => 'Тип контента',
+    'Create StructureType' => 'Создание типа',
+    'Update StructureType' => 'Редактирование типа',
+    'Sites' => 'Сайты',
+    'Create site' => 'Создать сайт',
+    'Manage sites' => 'Управление сайтами',
+    'Create Site' => 'Создание сайта',
+    'Update Site' => 'Параметры сайта',
+    'View Site' => 'Просмотр сайта',
+    'Pages' => 'Страницы',
+    'Create Page' => 'Создание страницы',
+    'Manage pages' => 'Управление страницами',
+    'Create page' => 'Создать страницу',
+    'View Page' => 'Просмотр страницы',
+    'Update Page' => 'Редактирование страницы',
+    'Manage Templates' => 'Управление шаблонами',
+    'Templates' => 'Шаблоны',
+    'Create template' => 'Создать шаблон',
+    'Create Template' => 'Создание шаблона',
+    'Update Template' => 'Редактирование шаблона'
+);

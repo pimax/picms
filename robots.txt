@@ -1,0 +1,18 @@
+User-agent: Yandex
+Host: fashiondb.ru
+Disallow: /map
+Disallow: /admin
+Disallow: /search
+Disallow: /wave/tag
+Disallow: /static
+Disallow: /*/feed
+Sitemap: http://fashiondb.ru/sitemap.xml
+
+User-agent: *
+Disallow: /map
+Disallow: /admin
+Disallow: /search
+Disallow: /wave/tag
+Disallow: /static
+Disallow: /*/feed
+Sitemap: http://fashiondb.ru/sitemap.xml
